@@ -1,4 +1,4 @@
-# Assignment 2 - Data ETL Pipeline  
+# Data ETL Pipeline  
 
 ### Overview
 This utility collects weather data from SEVIR that was recorded by the GOES and NEXRAD satellites. With the help of Airflow and Crontab, a scheduling tool, we can use this tool to collect data from NOAA's AWS S3 bucket and create an extraction-transformation-loading (ETL) process to collect real-time data on daily basis.
